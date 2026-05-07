@@ -130,7 +130,7 @@ app.post('/save', (req, res) => {
  */
 app.get('/error', (req, res) => {
     logActivity('ERROR_TEST', { triggered: true });
-    throw new Error("Error interno del servidor");
+    throw new Error("Error interno del servidor :/");
 });
 
 // ===============================
