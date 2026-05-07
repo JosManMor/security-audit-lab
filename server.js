@@ -116,7 +116,7 @@ app.post('/save', (req, res) => {
     // VULNERABLE: Append directo corrompe JSON
     fs.appendFileSync('./data/users.json', JSON.stringify(data));
 
-    res.send("Guardado correctamente");
+    res.send("Guardado correctamente :)");
 });
 
 // ===============================
